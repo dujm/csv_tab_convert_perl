@@ -2,10 +2,10 @@
 
 #replace tab to comma
 perl -i.bak -pe 's/\t/,/g' file.tsv
-perl -i.bak -pe 's/\t/,/g' file.tsv
 
 
-#csv to "; -seprate file
+
+#csv to "; -seprated file"
 perl -i.bak -pe 's/,/;/g' file.tsv
 
 
