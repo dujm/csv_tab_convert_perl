@@ -1,5 +1,5 @@
 
-## How to convert a tab-deliminated file (.tsv/.txt) to csv
+### How to convert a tab-deliminated file (.tsv/.txt) to csv
 
 * #### 1. Open your terminal  
     cd filedirectory
@@ -15,10 +15,10 @@
 * #### 5. Rename the file.tsv to file1.csv  
 
 * #### 6. The original tsv file backed up in file1.bak
+  
+  
 
-
-
-## How to convert a csv to tab-deliminated file (.tsv/.txt)  
+### How to convert a csv to tab-deliminated file (.tsv/.txt)  
 
 * #### 2.2  Conver tab (\t) to semi-colon(;)
     perl -i.bak -pe 's/\t/;/g' file2.csv
